@@ -1,9 +1,9 @@
-public class Node {
+public class node {
   private int nilai;
-  private Node next;
+  private node next;
 
   // Inisialisasi Node
-  public Node(int nilai) {
+  public node(int nilai) {
       this.nilai = nilai;
   }
 
@@ -16,11 +16,11 @@ public class Node {
       return nilai;
   }
 
-  public void setNext(Node next) {
+  public void setNext(node next) {
       this.next = next;
   }
 
-  public Node getNext() {
+  public node getNext() {
       return next;
   }
 }
