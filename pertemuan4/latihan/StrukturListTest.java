@@ -1,6 +1,6 @@
 package pertemuan4.latihan;
 
-public class listMain {
+public class StrukturListTest {
     public static void main(String[] args) {
         strukturList list = new strukturList();
         list.addTail(3);

@@ -1,9 +1,9 @@
-package pertemuan4.latihan;
+package pertemuan4.tugas;
 
 public class strukturList {
     private node HEAD;
   
-    public void addTail(int data) {
+    public void addTail(double data) {
       node posNode=null, curNode=null;
       node newNode = new node(data);
       if (HEAD == null) 
@@ -20,7 +20,7 @@ public class strukturList {
       }
     }
     
-    public void addHead(int data) {
+    public void addHead(double data) {
       node newNode = new node(data);
       if (HEAD == null) {
         HEAD = newNode;
@@ -31,7 +31,7 @@ public class strukturList {
     }
   
 
-    public void addmid(int data, int pos) {
+    public void addmid(double data, double pos) {
       node posNode=null, curNode=null;
       int i;
       node newNode = new node(data);
